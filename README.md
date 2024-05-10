@@ -2,6 +2,7 @@
 ![Preview](./assets/page-preview.png)
 
 Website for my portfolio.
+>Tutorial thanks to [How to Become a Developer](https://www.youtube.com/@howtobecomeadeveloper)
 
 ## Installation
 
