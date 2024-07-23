@@ -1,4 +1,10 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px){
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1440px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -96,6 +102,12 @@
         font-size: 2rem;
     }
     .text-container {
-        text-align: justify;
+        text-align: center;
+    }
+    
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 }
