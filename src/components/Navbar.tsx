@@ -21,6 +21,12 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li className="group relative inline-block">
+                            <a href="#TechStack" className="relative hover:text-gray-600 duration-500 transition-all ease-in-out">
+                                Tech Stack
+                                <span className="absolute top-10 left-0 w-full h-[2px] bg-current transform scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+                            </a>
+                        </li>
+                        <li className="group relative inline-block">
                             <a href="#Projects" className="relative hover:text-gray-600 duration-500 transition-all ease-in-out">
                                 Projects
                                 <span className="absolute top-10 left-0 w-full h-[2px] bg-current transform scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
