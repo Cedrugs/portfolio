@@ -1,7 +1,5 @@
 export default function Navbar() {
 
-    
-
     return (
         <>
             <nav id="DesktopNavbar" className="flex justify-around items-center py-10 h-[15vh] max-lg:hidden">
