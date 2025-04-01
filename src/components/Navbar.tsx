@@ -2,7 +2,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav id="DesktopNavbar" className="flex justify-around items-center py-10 h-[15vh] max-lg:hidden">
+            <nav id="DesktopNavbar" className="flex justify-around items-center py-10 h-[15vh] max-xl:hidden">
                 <a href="/" className="text-2xl text-[#353535]">Samuel Cedric</a>
                 <div>
                     <ul className="flex list-none gap-12 text-2xl">
@@ -37,7 +37,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li className="group relative inline-block">
-                            <a href="https://links.samuelcedric.com" className="relative hover:text-gray-600 duration-500 transition-all ease-in-out text-[#353535]">
+                            <a href="https://links.samuelcedric.com" target="_blank" className="relative hover:text-gray-600 duration-500 transition-all ease-in-out text-[#353535]">
                                 Links
                                 <span className="absolute top-10 left-0 w-full h-[2px] bg-current transform scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
                             </a>
@@ -45,7 +45,7 @@ export default function Navbar() {
                     </ul>
                 </div>
             </nav>
-            <nav id="MobileNavbar" className="hidden items-center py-10 h-[15vh] max-lg:flex max-lg:flex-col">
+            <nav id="MobileNavbar" className="hidden items-center py-10 h-[15vh] max-xl:flex max-lg:flex-col">
                 <div className="flex flex-row justify-around items-center w-full">
                     <a href="/" className="text-2xl">Samuel Cedric</a>
                     <button 
@@ -66,19 +66,19 @@ export default function Navbar() {
                 <div className="z-50 hidden list-none bg-white divide-y rounded-lg shadow-md" id="user-dropdown">
                     <ul className="py-2" aria-labelledby="user-menu-button">
                         <li>
-                            <a href="#" className="block px-4 py-2 text-xl text-black">About</a>
+                            <a href="#About" className="block px-4 py-2 text-xl text-black">About</a>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 text-xl text-black">Experience</a>
+                            <a href="#Experience" className="block px-4 py-2 text-xl text-black">Experience</a>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 text-xl text-black">Tech Stack</a>
+                            <a href="#TechStack" className="block px-4 py-2 text-xl text-black">Tech Stack</a>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 text-xl text-black">Projects</a>
+                            <a href="#Projects" className="block px-4 py-2 text-xl text-black">Projects</a>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 text-xl text-black">Contact</a>
+                            <a href="#Contact" className="block px-4 py-2 text-xl text-black">Contact</a>
                         </li>
                     </ul>
                 </div>
