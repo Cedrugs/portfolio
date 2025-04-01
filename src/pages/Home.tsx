@@ -64,9 +64,9 @@ export default function Home() {
     ];
     
     const projects = [
-        {"name": "Utility Discord Bot", "url": "https://github.com/Cedrugs/Ganyu-Hikari", "icon": "./src/assets/project-1.png"},
-        {"name": "Memes API", "url": "https://github.com/Cedrugs/MemesAPI", "icon": "./src/assets/project-2.png"},
-        {"name": "Hoyolab Auto Claim", "url": "https://github.com/Cedrugs/hoyolab-daily-reward-claimer", "icon": "./src/assets/project-3.png"},
+        {"name": "Utility Discord Bot", "url": "https://github.com/Cedrugs/Ganyu-Hikari", "icon": "./assets/project-1.png"},
+        {"name": "Memes API", "url": "https://github.com/Cedrugs/MemesAPI", "icon": "./assets/project-2.png"},
+        {"name": "Hoyolab Auto Claim", "url": "https://github.com/Cedrugs/hoyolab-daily-reward-claimer", "icon": "./assets/project-3.png"},
     ]
 
     return (
@@ -74,7 +74,7 @@ export default function Home() {
             <Navbar />
             <section id="Landing" className="flex flex-wrap justify-center items-center lg:h-[calc(100vh-15vh)] gap-20 max-lg:gap-10 px-10">
                 <div className="flex max-md:mt-10">
-                    <img src="./src/assets/face.png" alt="Face Image" className="h-[400px] w-[400px] max-lg:h-[200px] max-lg:w-[200px]"/>
+                    <img src="./assets/face.png" alt="Face Image" className="h-[400px] w-[400px] max-lg:h-[200px] max-lg:w-[200px]"/>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4 max-lg:gap-2">
                     <p className="font-semibold text-gray-600 max-lg:text-sm">Hello I'm</p>
