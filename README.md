@@ -1,54 +1,51 @@
-# React + TypeScript + Vite
+# portfolio
+![Preview](./src/assets/landing.png)
+portfolio is a personal website showcasing my projects and skills, built using React, Vite, SWC, and TypeScript. The site serves as a digital resume and a platform to display my work, all while being easily deployable using Docker.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **Project Showcases**: Highlighting various projects with descriptions and links to live demos.
+- **Responsive Design**: Optimized for both desktop and mobile devices for an enhanced user experience.
+- **Contact Form**: Allows visitors to reach out directly for inquiries or collaborations.
+- **Skill Breakdown**: An overview of skills and technologies I'm proficient in, visually represented for easy understanding.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- Vite
+- SWC (Speedy Web Compiler)
+- TypeScript
+- Docker
+## Installation
+To get a local copy of Cedric's Portfolio, follow these steps:
+1. **Clone the repository**:
+git clone https://github.com/YourUsername/cedric-portfolio.git
+2. **Navigate to the project directory**:
+cd cedric-portfolio
+3. **Install dependencies**:
+If you are using npm:
+npm install
+4. **Run the application**:
+npm start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Docker Installation
+For deployment using Docker, follow these steps:
+1. **Build the Docker image**:
+sudo docker build -t portfolio .
+2. **Deploy the Docker container**:
+sudo docker run -itd -p 3080:80 --name portfolio portfolio
+## Contributing
+Contributions are welcome! If you’d like to contribute to Cedric's Portfolio, please follow these steps:
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push your branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+Please ensure your contributions adhere to coding standards and include appropriate documentation.
 
-## Expanding the ESLint configuration
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Contact
+For inquiries, suggestions, or feedback, please reach out to me at [ceds.sam@gmail.com](mailto:ceds.sam@gmail.com).
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],E
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Acknowledgments
+Special thanks to all contributors, libraries, and resources that have supported the development of this project. Your assistance is greatly appreciated! Thank you for visiting my portfolio!
